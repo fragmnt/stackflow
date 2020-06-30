@@ -1,0 +1,47 @@
+#home {
+    display: flex;
+    margin-top: 75px;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hdWrapper {
+    max-width: 60vw;
+    margin-right: 20px;
+}
+
+.ilsWrapper {
+    flex: 1;
+}
+
+.ilsWrapper > img {
+    height: 360px;
+}
+
+.hdWrapper >  h1 {
+    font-size: 54px;   
+}
+
+.hdWrapper > p {
+    color: #707070;
+    font-size: 36px;
+}
+
+.ldBtn {
+    font-size: 18px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 2.52px;
+    border: none;
+    cursor: pointer;
+}
+
+.ldBtn:hover {
+    background-color: #242424;
+}
